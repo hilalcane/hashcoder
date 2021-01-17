@@ -1,0 +1,90 @@
+/*NAVBAR ----------------------------------------------------------------*/
+.brand-text{
+    font-family: Verdana;
+    font-weight: bold;
+    padding-top: 5vh;
+}
+/*NAVBAR ----------------------------------------------------------------*/
+
+
+/*HOME ----------------------------------------------------------------*/
+#home{
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    align-items: center;
+    background: fixed;
+    background-image: url(../img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh !important;
+}
+.input-group{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+#inputt{
+    border-radius: 30px;
+    padding: 12px;
+    width: 80%;
+    margin: 15px;
+    box-shadow: 8px 8px 8px  #dddddd49;
+}
+.key{
+    height: 100%;
+    margin-top: 23px;
+}
+.screenBox{
+    background: white;
+    border-radius: 2%;
+    margin-top: 15px;
+    padding: 20vh 10vh 15vh 10vh;
+    width: 87% !important; 
+    box-shadow: 8px 8px 8px  #dddddd49;
+    padding-top: 1px !important;
+    padding-bottom: 5px !important;
+}
+.screen p{
+    border-bottom: 1px solid rgba(187, 187, 187, 0.288);
+    width: 95%;
+    margin-left: 20px;
+}
+.screen h4{
+    margin: 50px;
+    margin-bottom: 15px !important;
+    margin-left: 15px !important;
+    color: rgb(22, 73, 117);
+}
+/*HOME ----------------------------------------------------------------*/
+
+
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    color:#383838;
+    font-size: 18px !important;
+    font-weight:bold !important ;
+}
+
+/*ABOUT-FOOTER ----------------------------------------------------------------*/
+@media (min-width: 1200px){
+.cikti{
+    font-family: 'Times New Roman', Times, serif;
+    color:#707070;
+    letter-spacing: 1px;
+}
+}
+.ozet{
+    font-family: Verdana;
+    color: #383838;
+    font-size: 15px !important;
+}
+footer{
+    background-color: #36495a;
+}
+
+@media only screen and (max-width: 800px){
+    h4{
+        font-size:14px;
+    }
+}

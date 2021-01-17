@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107" height="89" viewBox="0 0 107 89">
+  <defs>
+    <filter id="Rectangle_3" x="0" y="0" width="107" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="kapalı_kilit" data-name="kapalı kilit" transform="translate(-1344 -299)">
+    <g transform="matrix(1, 0, 0, 1, 1344, 299)" filter="url(#Rectangle_3)">
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" width="89" height="71" rx="20" transform="translate(9 6)" fill="#0097a7"/>
+    </g>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="14.5" cy="14" rx="14.5" ry="14" transform="translate(1383 335)" fill="#fff"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="19" height="25" rx="9" transform="translate(1388 322)" fill="#fff"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="9" height="14" rx="4" transform="translate(1393 326)" fill="#0097a7"/>
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="14.5" cy="14" rx="14.5" ry="14" transform="translate(1383 335)" fill="#fff"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="3.5" cy="3.5" r="3.5" transform="translate(1394 346)" fill="#0097a7"/>
+    <path id="Polygon_1" data-name="Polygon 1" d="M1.516,5.513a1,1,0,0,1,1.969,0L4.79,12.824A1,1,0,0,1,3.806,14H1.194A1,1,0,0,1,.21,12.824Z" transform="translate(1395 345)" fill="#0097a7"/>
+  </g>
+</svg>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HASH CODER</title>
+    <link href="src/img/renkli-logo.svg" type="image/svg" rel="shortcut icon">
+    <link rel="script" href="src/js/sha1.js"/>
+    <link rel="script" href="src/js/rot13.js"/>
+    <link rel="script" href="src/js/base64.js"/>
+    <link rel="script" href="src/js/md5.js"/>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+
+<!--NAVBAR START-->
+    <nav style="position:fixed; width:100%;" class="navbar navbar-dark bg-transparet">
+        <a class="navbar-brand brand-text text-light" href="#"><img class="mr-3 mb-1 ml-5" width="55vh" src= "src/img/logo.svg">HASH CODER</a>
+        <div class="dropdown">
+            <button class="btn person" type="button" data-toggle="dropdown"><img src="src/img/user.svg" width="35vh"></button>
+            <ul class="dropdown-menu bg-transparent">
+                <li><a href="https://www.linkedin.com/in/hilal-can-ert%C3%BCrk-2528bb166/"><img src="src/img/linkedin.svg" width="13px" class="m-1"></a></li>
+                <li><a href="https://medium.com/@hilal.erturk"><img src="src/img/medium.svg " width="13px" class="m-1"></a></li>
+                <li><a href="https://twitter.com/hazreti_hilal"><img src="src/img/twitter-xxl.png" width="13px" class="m-1"></a></li>
+            </ul>
+        </div>
+    </nav>
+<!--NAVBAR END-->   
+    
+
+<!--HOME PAGE START-->
+<section class="container-fluid w-100" id="home">
+    <div class="container justify-content-center ">
+        <div class="input-group">
+            <input id="inputt" type="text" placeholder="Şifrelemek istediğiniz mesajı giriniz.">                
+            <button onclick="btn()" type="button" class="key btn btn-outline-light">Şifrele !</button>        
+        </div>
+        <div class="screenBox container">
+            <div class="screen container ml-3 align-items-center">
+            <h4>MD5:</h4>
+            <p id="md5Out"></p>
+            <h4 >Base64:</h4>
+            <p id="baseOut"></p>
+            <h4 >Rot13:</h4>
+            <p id="rotOut"></p>
+            <h4 >SHA1:</h4>
+            <p id="shaOut"></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--HOME PAGE END-->
+
+
+<!--ABOUT PAGE START-->
+<section id="services" class="py-5 bg-light">
+    <h4 class="text-center pt-5">KISACA BAHSEDELİM NEDİR BU</h4>
+    <h2 class="text-center pb-5"><center> ŞİFRELEMELER? </center></h2>
+    <div class="container">
+        <h4>MD5 nedir?</h4>
+        <p class="ozet">MD5 açılımı "Message Digest 5" olan Profesör Ron Rivest tarafından 1991 yılında geliştirilen bir şifreleme 
+            algoritmasıdır. MD5 sayesinde giriş yapılan herhangi bir uzunlukta metini 128 bit parmak izine kodlayarak tek 
+            yönlü olarak oluşturur. Bu yöntem sayede şifre çözümlenemez ve gizlenen verinin güvenliği epey artırılmış olur.
+            </p>
+        <h4 class="pt-5">SHA1 nedir?</h4>   
+        <p class="ozet">Secure Hashing Algorithm olarak adlandırılan, şifreleme algoritmaları içerisinde en yaygın olarak kullanılan 
+            algoritma olduğu kabul gören SHA1, United States National Security Agency tarafından tasarlanmıştır. “Hash” 
+            fonksiyonlarına dayalı veritabanı yönetimine (database management) imkan sağlar. SHA1 algoritması ile 160 
+            bitlik özetler oluşturulur. MD5 ve SHA1 arasındaki temel fark oluşturdukları özetlerdeki boyut farkıdır.
+            </p>
+        <h4 class="pt-5">Base64 nedir?</h4>   
+        <p class="ozet">Base64 Encoding binary verileri metne dönüştürerek saklamaya veya iletmeye yarayan tekniklerden en yaygın olarak 
+            kullanılanıdır. Bu teknik ile temel olarak 8 bitlik baytlardan oluşan binary veri 6 bitlik (2^6 = 64) parçalara bölünür.
+            6 bit ile ifade edilen 64 farklı sayı, ASCII karakter kümesinde Printable Character olarak ifade edilen 64 
+            farklı karakterle eşleştirilmiştir. Eldeki 6 bitlik verinin bu tablo ile eşleştirilmesi ile Base64 Encoding yapılmış olur.
+            </p>
+        <h4 class="pt-5">Rot13 nedir?</h4>   
+        <p class="ozet">İlk olarak 1980’li yıllarda kullanılmaya başlayan Sezar şifresi olarak bilinen oldukça basit bir
+            şifreleme tekniğidir. ROT13 şifreleme algoritmasının çalışma mantığı, girilen kelimedeki her harfin 26 
+            harften oluşan İngilizce alfabesinin yarısı olan 13 harf sonrasındaki harfe denk gelen eşitliğinden oluşur.
+        </p>
+     
+    </div>
+</section>
+<!--ABOUT PAGE END-->
+
+
+
+<!--FOOTER START-->
+<footer class="footer bg-dark "> 
+    <div class="container-fluid pt-2 row">
+    <p class="text-left text-white ml-2"><img class="mr-2 mb-1 ml-2" width="30vh" src="src/img/renkli-logo.svg">hashcoder.me</p>
+    <p class="ml-auto text-right" style="color: rgb(85, 85, 85);">designed by hce</p>
+    </div>
+</footer>
+<!--FOOTER END-->
+
+
+</body>
+
+
+
+<script src="src/js/index.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</html>
