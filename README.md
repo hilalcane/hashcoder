@@ -6,7 +6,7 @@
  - 🔍 And you can find them algorithms in my code.
 
 
-Let's have a look..
+<h3>Let's have a look..</h3>
 <img width="1679" alt="Screenshot 2023-03-01 at 1 40 34 PM" src="https://user-images.githubusercontent.com/75179799/222120766-e2ca5ec9-e781-4087-a5ee-cd5224062567.png">
 
 <img width="1680" alt="Screenshot 2023-03-01 at 1 40 18 PM" src="https://user-images.githubusercontent.com/75179799/222121219-6e845e03-70e6-41a1-ba8b-0aac0840fa09.png">
